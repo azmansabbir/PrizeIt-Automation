@@ -6,8 +6,7 @@ var ReportDate = date.getFullYear() + ("0" + (date.getMonth() + 1)).slice(-2) + 
 const config: PlaywrightTestConfig = {
   // testDir: './tests',
   testMatch: [
-    // "012Trivia.test.ts",
-    "Trivia.test.ts"
+    "001login.test.ts"
   ],
   timeout: 1 * 30 * 10000,
   expect: {
